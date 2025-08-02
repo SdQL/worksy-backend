@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://tech-horizon02.netlify.app",
+                        .allowedOrigins("https://worksy-two.vercel.app/",
                                         "http://localhost:3000",
                                         "http://127.0.0.1:3000"
                                 ) // Solo dominios, sin rutas ni comodín
